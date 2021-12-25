@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/// URL/helloのとき「HelloController」を呼び出す
+Route::get('hello', 'App\Http\Controllers\HelloController@index');
