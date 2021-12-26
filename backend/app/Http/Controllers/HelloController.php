@@ -13,6 +13,6 @@ class HelloController extends Controller
     public function index()
     {
         $items = DB::table('people')->get();
-        return view('hello.hello',['items' => $items]);
+        return view('hello',['items' => $items]);
     }
 }
