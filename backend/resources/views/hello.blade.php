@@ -10,6 +10,7 @@
                     <td>{{$item -> mail}}</td>
                     <td>{{$item -> age}}</td>
                 </tr>
+                <br>
             @endforeach
     </body>
 </html>

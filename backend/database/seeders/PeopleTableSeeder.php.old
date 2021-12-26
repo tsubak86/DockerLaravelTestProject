@@ -15,10 +15,10 @@ class PeopleTableSeeder extends Seeder
     public function run()
     {
         $param = [
-            'id' => 2,
-            'name' => 'test2',
-            'mail' => 'test2',
-            'age' => 30,
+            'id' => 1,
+            'name' => 'test',
+            'mail' => 'test',
+            'age' => 20,
         ];
     DB::table('people')->insert($param);
     }
